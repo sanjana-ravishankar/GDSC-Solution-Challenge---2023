@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./styleregistration.css">
+    <style>
+        a:link, a:visited {
+    background-color: white;
+    color: rgba(254, 6, 6, 0.974);
+    border: 2px solid rgba(12, 197, 61, 0.89);
+    border-radius: 26px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+    a:hover, a:active {
+    background-color: rgba(228, 7, 114, 0.49);
+    color: white;
+    }
+    </style>
+</head>
+<body>
+    <div id="login-box">
+        <div class="left">
+          <h1>Sign up</h1><h3>(make sure you enter all the fields)</h3>
+          
+          <input type="text" name="username" placeholder="Username" required>
+          <input type="text" name="email" placeholder="E-mail" required>
+         
+            <br><br>
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday">
+          <br><br>
+          <label for="ID CARD">ID Card:</label>
+          <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*">
+          
+          <br><br>
+          <br><br> 
+              <a href="3-main.html">Register</a></p>
+            
+        </div>
+        
+        
+</body>
+</html>
